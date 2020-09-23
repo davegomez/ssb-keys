@@ -20,7 +20,8 @@
     "tape": "^3.0.3"
   },
   "scripts": {
-    "test": "nyc tape test/*"
+    "test": "nyc tape test/*",
+    "test-verbose": "VERBOSE_TESTS=1 npm run test"
   },
   "author": "Paul Frazee <pfrazee@gmail.com>",
   "license": "MIT",
